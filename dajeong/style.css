@@ -1,0 +1,43 @@
+/* 헤더 */
+header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+header .header-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 72px;
+  padding: 0px 80px;
+}
+
+.header-box .logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.header-box .button-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-box .button-box button {
+  background-color: #ff6600;
+  color: white;
+  display: inline-flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  vertical-align: top;
+  cursor: pointer;
+  border-radius: 0.25rem;
+  width: 5.5rem;
+  height: 2rem;
+}
